@@ -1,6 +1,5 @@
 import nltk
 from nltk.tokenize import word_tokenize
-import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 import torch
 from transformers import BertTokenizer, BertModel
